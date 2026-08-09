@@ -11,6 +11,7 @@ public class CheckTwoDigitNumber {
 		System.out.println("Enter your number :");
 		int number = sc.nextInt();
 		
+		
 		int num =Math.abs(number);
 		if(num >= 10 && num <= 99)
 		{
