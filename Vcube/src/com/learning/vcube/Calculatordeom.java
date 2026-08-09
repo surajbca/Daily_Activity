@@ -17,8 +17,6 @@ public class Calculatordeom {
 		System.out.println("Choice case :");
 		int chose = sc.nextInt();
 		
-		
-		
 		switch(chose) {
 		case 1:
 			System.out.println("Add num :" + (num1 + num2));
