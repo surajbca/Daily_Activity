@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class HappyNum {
 	
-	
 	static int sumOfSquare(int n) {
 		
 		int sum = 0;
@@ -14,10 +13,7 @@ public class HappyNum {
 			sum = sum + digit * digit;
 			n = n / 10;
 		}
-		
 		return sum;
-		
-		
 	}
 	
 	public static void main(String[] args) {
