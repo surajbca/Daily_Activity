@@ -5,7 +5,7 @@ public class VehicleA extends CarA{
 	int speed = 50;
 	
 	void display(){
-		System.out.println("Car speed : " + speed);
+		System.out.println("Vehicle speed : " + speed);
 	}
 	
 	public static void main(String[] args) {
