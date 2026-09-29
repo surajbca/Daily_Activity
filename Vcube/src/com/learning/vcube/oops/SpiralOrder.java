@@ -38,6 +38,7 @@ public class SpiralOrder {
                 System.out.print(arr[top][i] + " ");
             }
             top++;
+            System.out.println();
 
             // Right column: Top to Bottom
             for (int i = top; i <= bottom; i++) {
@@ -45,6 +46,7 @@ public class SpiralOrder {
             }
             right--;
 
+            System.out.println();
             // Bottom row: Right to Left
             if (top <= bottom) {
                 for (int i = right; i >= left; i--) {
@@ -53,6 +55,7 @@ public class SpiralOrder {
                 bottom--;
             }
 
+            System.out.println();
             // Left column: Bottom to Top
             if (left <= right) {
                 for (int i = bottom; i >= top; i--) {
